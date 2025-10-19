@@ -149,3 +149,13 @@ Setelah melakukan beberapa langkah diatas, dan sudah menyesuaikan koneksi untuk 
   php artisan migrate
 ```
 
+## Keys / Passport Auth Installation.
+Laravel Passport requires encryption keys to be generated before the authentication system can be used.
+```bash
+  php artisan passport:keys  
+```
+```bash
+  php artisan passport:client --personal
+```
+
+
