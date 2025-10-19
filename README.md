@@ -2,7 +2,7 @@
 
 ## Base URL
 ```bash
-  https://kalistusapi.my.id/
+  https://kalistusapi.my.id/api/
 ```
 ## End-point
 Login
