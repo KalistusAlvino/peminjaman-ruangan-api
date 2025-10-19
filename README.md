@@ -39,13 +39,13 @@ curl -X GET "http://kalistusapi.my.id/api/rooms" \
 
 Get Rooms
 ```bash
-    GET http://kalistusapi.my.id/api/rooms
+    GET https://kalistusapi.my.id/api/rooms
 ```
 ```bash
     Parameters can be add on: room_name (string) (optional) | date (string) (optional) (format="YYYY-MM-DD")
 ```
 ```bash
-    GET http://kalistusapi.my.id/api/rooms?room_name=meeting&date=2025-10-19
+    GET https://kalistusapi.my.id/api/rooms?room_name=meeting&date=2025-10-19
 ```
 ```bash
   {
@@ -92,7 +92,7 @@ Get Rooms
 ```
 Post Bookings
 ```bash
-    http://kalistusapi.my.id/api/bookings
+    https://kalistusapi.my.id/api/bookings
 ```
 ```bash
     Required parameter & example JSON Body
@@ -114,9 +114,9 @@ Post Bookings
 ```
 Approval and rejection
 ```bash
-    http://kalistusapi.my.id/api/bookings/approve/{booking_id}
+    https://kalistusapi.my.id/api/bookings/approve/{booking_id}
 
-    http://kalistusapi.my.id/api/bookings/reject/{booking_id}
+    https://kalistusapi.my.id/api/bookings/reject/{booking_id}
 ```
 
 ```bash
