@@ -1,6 +1,6 @@
 # Peminjangan-ruangan-api
 
-## Base URL
+## Hosted URL (Base URL)
 ```bash
   https://kalistusapi.my.id/api/
 ```
